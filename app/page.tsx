@@ -114,7 +114,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 dark-card rounded-sm overflow-hidden p-1.5 border border-gold/20">
                   <div className="relative w-full h-full overflow-hidden rounded-sm">
                     <Image
-                      src="/images/Home_first_image.webp"
+                      src="/images/Home_first_image.png"
                       alt="Premium Haircut Grooming Ritual"
                       fill
                       priority
