@@ -45,7 +45,7 @@ const barbers = [
 const milestones = [
   { year: "2018", title: "The Beginning", desc: "Started with a single chair in a small loft, offering bespoke cuts to local creatives." },
   { year: "2020", title: "Growing the Circle", desc: "Expanded the studio and brought on master barbers James and Kai, establishing our brand reputation." },
-  { year: "2022", title: "Best Shop Award", desc: "Voted NYC's Best Boutique Barbershop for our focus on customer care and traditional grooming rituals." },
+  { year: "2022", title: "Best Shop Award", desc: "Voted Abu Dhabi's Best Boutique Barbershop for our focus on customer care and traditional grooming rituals." },
   { year: "2024 & Beyond", title: "Modern Heritage", desc: "Continuing to redefine custom styling and grooming education from our sanctuary." }
 ];
 
