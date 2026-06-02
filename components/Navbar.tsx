@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Scissors } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -40,11 +41,16 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <motion.div
-              whileHover={{ rotate: 15 }}
+              whileHover={{ rotate: 10, scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="text-gold"
+              className="relative w-12 h-12 overflow-hidden rounded-full border border-gold/30 group-hover:border-gold/80 transition-colors"
             >
-              <Scissors size={28} strokeWidth={1.5} />
+              <Image
+                src="/images/logo.webp"
+                alt="The Dark Room Logo"
+                fill
+                className="object-cover scale-110"
+              />
             </motion.div>
             <div>
               <span className="text-gold font-serif text-xl tracking-widest uppercase font-bold">

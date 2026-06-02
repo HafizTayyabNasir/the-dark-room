@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Scissors, Instagram, Facebook, Twitter, Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Instagram, Facebook, Twitter, Phone, Mail, MapPin, Clock } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,7 +10,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Scissors size={24} className="text-gold" strokeWidth={1.5} />
+              <div className="relative w-10 h-10 overflow-hidden rounded-full border border-gold/30">
+                <Image
+                  src="/images/logo.webp"
+                  alt="The Dark Room Logo"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div>
                 <div className="text-gold font-serif text-lg tracking-widest uppercase font-bold">
                   The Dark Room

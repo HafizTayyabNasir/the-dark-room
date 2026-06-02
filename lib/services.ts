@@ -5,6 +5,7 @@ export interface Service {
   duration: string;
   price: number;
   category: string;
+  image: string;
   popular?: boolean;
 }
 
@@ -16,6 +17,7 @@ export const services: Service[] = [
     duration: "45 min",
     price: 45,
     category: "Hair",
+    image: "/images/darkroom1.webp",
     popular: true,
   },
   {
@@ -25,6 +27,7 @@ export const services: Service[] = [
     duration: "50 min",
     price: 55,
     category: "Hair",
+    image: "/images/darkroom2.webp",
     popular: true,
   },
   {
@@ -34,6 +37,7 @@ export const services: Service[] = [
     duration: "30 min",
     price: 35,
     category: "Beard",
+    image: "/images/darkroom3.webp",
   },
   {
     id: "hot-shave",
@@ -42,6 +46,7 @@ export const services: Service[] = [
     duration: "45 min",
     price: 50,
     category: "Beard",
+    image: "/images/darkroom4.webp",
     popular: true,
   },
   {
@@ -51,6 +56,7 @@ export const services: Service[] = [
     duration: "75 min",
     price: 75,
     category: "Combo",
+    image: "/images/darkroom5.webp",
     popular: true,
   },
   {
@@ -60,6 +66,7 @@ export const services: Service[] = [
     duration: "45 min",
     price: 60,
     category: "Treatment",
+    image: "/images/darkroom6.webp",
   },
   {
     id: "kids-cut",
@@ -68,6 +75,7 @@ export const services: Service[] = [
     duration: "30 min",
     price: 30,
     category: "Hair",
+    image: "/images/darkroom7.webp",
   },
   {
     id: "color-service",
@@ -76,6 +84,7 @@ export const services: Service[] = [
     duration: "90 min",
     price: 95,
     category: "Treatment",
+    image: "/images/darkroom8.webp",
   },
 ];
 

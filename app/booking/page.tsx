@@ -5,6 +5,7 @@ import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Clock, ArrowRight, CheckCircle, Scissors } from "lucide-react";
+import Image from "next/image";
 import { services } from "@/lib/services";
 
 const fadeUp = {
@@ -125,8 +126,17 @@ function BookingContent() {
                   <div className={`dark-card rounded-sm overflow-hidden h-full flex flex-col transition-all duration-300 ${
                     preSelected === service.id ? "border-gold/60 shadow-[0_0_20px_rgba(201,168,76,0.2)]" : ""
                   }`}>
-                    {/* Top accent bar */}
-                    <div className="h-1 bg-gradient-to-r from-gold/0 via-gold/50 to-gold/0 group-hover:via-gold transition-all duration-500" />
+                    {/* Top image */}
+                    <div className="relative h-44 w-full overflow-hidden">
+                      <Image
+                        src={service.image}
+                        alt={service.name}
+                        fill
+                        className="object-cover group-hover:scale-110 transition-transform duration-700"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-40" />
+                    </div>
 
                     {/* Selected indicator */}
                     {preSelected === service.id && (
