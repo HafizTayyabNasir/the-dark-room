@@ -49,7 +49,7 @@ export default function Navbar() {
                 src="/images/logo.webp"
                 alt="The Dark Room Logo"
                 fill
-                className="object-cover scale-110"
+                className="object-contain scale-90"
               />
             </motion.div>
           </Link>

@@ -15,7 +15,7 @@ export default function Footer() {
                   src="/images/logo.webp"
                   alt="The Dark Room Logo"
                   fill
-                  className="object-cover"
+                  className="object-contain scale-90"
                 />
               </div>
             </div>
