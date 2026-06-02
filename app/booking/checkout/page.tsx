@@ -503,8 +503,8 @@ function CheckoutContent() {
               {/* Shop Info */}
               <div className="mt-4 dark-card rounded-sm p-5 space-y-2">
                 <p className="text-cream/40 text-xs tracking-widest uppercase mb-3">The Dark Room</p>
-                <p className="text-cream/50 text-sm">123 Dark Alley, Suite 1</p>
-                <p className="text-cream/50 text-sm">New York, NY 10001</p>
+                <p className="text-cream/50 text-sm">Al Rahah Street</p>
+                <p className="text-cream/50 text-sm">Abu Dhabi, United Arab Emirates</p>
                 <p className="text-cream/40 text-xs mt-2">Mon–Fri: 9AM–7PM · Sat: 8AM–6PM · Sun: 10AM–4PM</p>
               </div>
             </motion.div>

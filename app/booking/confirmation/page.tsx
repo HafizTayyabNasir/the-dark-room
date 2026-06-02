@@ -170,8 +170,8 @@ function ConfirmationContent() {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-gold/60 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-cream/70 text-sm">123 Dark Alley, Suite 1</p>
-                  <p className="text-cream/70 text-sm">New York, NY 10001</p>
+                  <p className="text-cream/70 text-sm">Al Rahah Street</p>
+                  <p className="text-cream/70 text-sm">Abu Dhabi, United Arab Emirates</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">

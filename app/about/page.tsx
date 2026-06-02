@@ -105,7 +105,7 @@ export default function AboutPage() {
               Born from <span className="gold-text">Passion</span>
             </h2>
             <p className="text-cream/50 leading-relaxed">
-              The Dark Room was born in 2018 from a simple belief: that a great haircut is more than an appointment — it&apos;s an experience. Founder Marcus Reid opened our doors in the heart of New York City after 15 years of perfecting his craft across three continents.
+              The Dark Room was born in 2018 from a simple belief: that a great haircut is more than an appointment — it&apos;s an experience. Founder Marcus Reid opened our doors in the heart of Abu Dhabi after 15 years of perfecting his craft across three continents.
             </p>
             <p className="text-cream/50 leading-relaxed">
               The name itself tells the story. A dark room in photography is where the real magic happens — where raw negatives are transformed into lasting images. We see every client the same way: walking in with potential, leaving transformed.

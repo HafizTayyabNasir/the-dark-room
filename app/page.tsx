@@ -58,7 +58,7 @@ export default function HomePage() {
               {/* Eyebrow */}
               <motion.div variants={fadeUp} className="flex items-center gap-3">
                 <div className="gold-divider w-12 h-px" style={{ margin: 0 }} />
-                <span className="text-gold/70 text-xs tracking-[0.35em] uppercase font-bold">Est. 2018 · New York</span>
+                <span className="text-gold/70 text-xs tracking-[0.35em] uppercase font-bold">Est. 2018 · Abu Dhabi</span>
               </motion.div>
 
               {/* Heading */}
@@ -231,7 +231,7 @@ export default function HomePage() {
               Our Roots & <span className="gold-text">Philosophy</span>
             </h2>
             <p className="text-cream/50 leading-relaxed">
-              Founded in New York City, The Dark Room was designed as an escape from the frantic pace of modern life. We believe grooming is not a chore—it is an art form, a ritual of restoration, and an expression of personal identity.
+              Founded in Abu Dhabi, The Dark Room was designed as an escape from the frantic pace of modern life. We believe grooming is not a chore—it is an art form, a ritual of restoration, and an expression of personal identity.
             </p>
             <p className="text-cream/50 leading-relaxed">
               Our workspace blends industrial style, leather textures, and premium acoustic design, creating an intimate, exclusive atmosphere where you are the sole focus.
