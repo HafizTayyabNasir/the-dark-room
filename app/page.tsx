@@ -186,7 +186,7 @@ export default function HomePage() {
         </motion.div>
       </div>
 
-      {/* ══════════════════════ OUR ROOTS / HISTORY (NEW SECTION) ══════════════════════ */}
+      {/* ══════════════════════ OUR ROOT / HISTORY (NEW SECTION) ══════════════════════ */}
       <section className="py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column: Image Card */}
