@@ -9,22 +9,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 overflow-hidden rounded-full border border-gold/30">
+            <div className="flex items-center">
+              <div className="relative w-16 h-16 overflow-hidden rounded-full border border-gold/30">
                 <Image
                   src="/images/logo.webp"
                   alt="The Dark Room Logo"
                   fill
                   className="object-cover"
                 />
-              </div>
-              <div>
-                <div className="text-gold font-serif text-lg tracking-widest uppercase font-bold">
-                  The Dark Room
-                </div>
-                <div className="text-[10px] text-gold/40 tracking-[0.3em] uppercase">
-                  Barbershop
-                </div>
               </div>
             </div>
             <p className="text-cream/50 text-sm leading-relaxed">

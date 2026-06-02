@@ -39,11 +39,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center group">
             <motion.div
               whileHover={{ rotate: 10, scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="relative w-12 h-12 overflow-hidden rounded-full border border-gold/30 group-hover:border-gold/80 transition-colors"
+              className="relative w-16 h-16 overflow-hidden rounded-full border border-gold/30 group-hover:border-gold/80 transition-colors"
             >
               <Image
                 src="/images/logo.webp"
@@ -52,14 +52,6 @@ export default function Navbar() {
                 className="object-cover scale-110"
               />
             </motion.div>
-            <div>
-              <span className="text-gold font-serif text-xl tracking-widest uppercase font-bold">
-                The Dark Room
-              </span>
-              <div className="text-[10px] text-gold/50 tracking-[0.3em] uppercase">
-                Barbershop
-              </div>
-            </div>
           </Link>
 
           {/* Desktop Links */}
