@@ -62,7 +62,7 @@ export default function HomePage() {
               </motion.div>
 
               {/* Heading */}
-              <motion.h1 variants={fadeUp} className="font-serif text-6.5xl sm:text-7.5xl lg:text-8.5xl leading-[0.9] tracking-tight">
+              <motion.h1 variants={fadeUp} className="font-serif text-5xl sm:text-7xl lg:text-8xl leading-[0.9] tracking-tight">
                 <span className="text-cream/90">The Art</span>
                 <br />
                 <span className="gold-text">of the</span>
