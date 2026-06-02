@@ -43,10 +43,9 @@ const barbers = [
 ];
 
 const milestones = [
-  { year: "2018", title: "The Beginning", desc: "Started with a single chair in a small loft, offering bespoke cuts to local creatives." },
-  { year: "2020", title: "Growing the Circle", desc: "Expanded the studio and brought on master barbers James and Kai, establishing our brand reputation." },
-  { year: "2022", title: "Best Shop Award", desc: "Voted Abu Dhabi's Best Boutique Barbershop for our focus on customer care and traditional grooming rituals." },
-  { year: "2024 & Beyond", title: "Modern Heritage", desc: "Continuing to redefine custom styling and grooming education from our sanctuary." }
+  { year: "2024", title: "The Beginning", desc: "Started with a single chair in a small loft, offering bespoke cuts to local creatives." },
+  { year: "2025", title: "Best Shop Award", desc: "Voted Abu Dhabi's Best Boutique Barbershop for our focus on customer care and traditional grooming rituals." },
+  { year: "2026 & Beyond", title: "Modern Heritage", desc: "Continuing to redefine custom styling and grooming education from our sanctuary." }
 ];
 
 export default function AboutPage() {
@@ -99,13 +98,13 @@ export default function AboutPage() {
           >
             <div className="flex items-center gap-4">
               <div className="gold-divider" style={{ margin: 0 }} />
-              <span className="text-gold/60 text-xs tracking-[0.3em] uppercase font-bold">Est. 2018</span>
+              <span className="text-gold/60 text-xs tracking-[0.3em] uppercase font-bold">Est. 2024</span>
             </div>
             <h2 className="font-serif text-5xl text-cream/90">
               Born from <span className="gold-text">Passion</span>
             </h2>
             <p className="text-cream/50 leading-relaxed">
-              The Dark Room was born in 2018 from a simple belief: that a great haircut is more than an appointment — it&apos;s an experience. Founder Marcus Reid opened our doors in the heart of Abu Dhabi after 15 years of perfecting his craft across three continents.
+              The Dark Room was born in 2024 from a simple belief: that a great haircut is more than an appointment — it&apos;s an experience. Founder Marcus Reid opened our doors in the heart of Abu Dhabi after 15 years of perfecting his craft across three continents.
             </p>
             <p className="text-cream/50 leading-relaxed">
               The name itself tells the story. A dark room in photography is where the real magic happens — where raw negatives are transformed into lasting images. We see every client the same way: walking in with potential, leaving transformed.
@@ -118,7 +117,7 @@ export default function AboutPage() {
               {[
                 { icon: Award, value: "3x", label: "Best Barbershop Award" },
                 { icon: Users, value: "4K+", label: "Happy Clients" },
-                { icon: Clock, value: "6", label: "Years of Excellence" },
+                { icon: Clock, value: "2", label: "Years of Excellence" },
               ].map((stat, i) => (
                 <div key={i} className="text-center">
                   <stat.icon size={20} className="text-gold mx-auto mb-2" strokeWidth={1.5} />

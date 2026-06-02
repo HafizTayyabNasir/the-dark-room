@@ -58,7 +58,7 @@ export default function HomePage() {
               {/* Eyebrow */}
               <motion.div variants={fadeUp} className="flex items-center gap-3">
                 <div className="gold-divider w-12 h-px" style={{ margin: 0 }} />
-                <span className="text-gold/70 text-xs tracking-[0.35em] uppercase font-bold">Est. 2018 · Abu Dhabi</span>
+                <span className="text-gold/70 text-xs tracking-[0.35em] uppercase font-bold">Est. 2024 · Abu Dhabi</span>
               </motion.div>
 
               {/* Heading */}
@@ -90,7 +90,7 @@ export default function HomePage() {
               {/* Stats */}
               <motion.div variants={fadeUp} className="flex gap-10 pt-4">
                 {[
-                  { value: "6+", label: "Years" },
+                  { value: "2+", label: "Years" },
                   { value: "4K+", label: "Clients" },
                   { value: "98%", label: "Satisfaction" },
                 ].map((stat, i) => (
